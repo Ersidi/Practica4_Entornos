@@ -22,7 +22,12 @@ public class Cajero {
     int c;
     double t;
     ArrayList<Producto> ps;
-
+// lorenzo
+    
+    /**
+     * Constructor de la clase
+     * @param n el nombre del cajero
+     */
     public Cajero(String n) {
         this.n = n;
         this.c = 0;
